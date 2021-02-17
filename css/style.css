@@ -1,0 +1,67 @@
+@import url(lamborghini.css);
+@import url(ferrari.css);
+@import url(light.css);
+@import url(text.css);
+@import url(fu.css);
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.car_animation {
+	width: 300%;
+	height: 100vh;
+	background-image: url(../images/nature2.png);
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	/*background-size: contain;*/
+	overflow-x: hidden;
+	animation: nature 25s linear infinite;
+}
+
+@keyframes nature {
+	100% {
+		transform: translateX(-500px);
+	}
+}
+
+.road {
+	height: 98px;
+	width: 500%;
+	display: block;
+	background-image: url(../images/road.png);
+	background-repeat: repeat-x;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	z-index: 2;
+	animation: road 2s linear infinite;
+}
+
+@keyframes road {
+	100% {
+		transform: translateX(-3400px);
+	}
+}
+
+.flowers {
+	height: 64px;
+	width: 500%;
+	background-image: url(../images/flowers.png);
+	position: absolute;
+	bottom: 80px;
+	left: 0px;
+	right: 0px;
+	display: block;
+	z-index: 1;
+	background-repeat: repeat-x;
+	animation: flowers 3s linear infinite;
+}
+
+@keyframes flowers {
+	100% {
+		transform: translateX(-2400px);
+	}
+}

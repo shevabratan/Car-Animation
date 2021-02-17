@@ -1,0 +1,502 @@
+.lamborghini {
+	width: 322px;
+	position: absolute;
+	left: 500px;
+	bottom: 60px;
+	z-index: 3;
+}
+
+.lamborghini img {
+	width: 100%;
+	animation: lamborghini 25s linear infinite;
+}
+
+@keyframes lamborghini {
+	0% {
+		transform: translate(0px, 1px);
+	}
+	2% {
+		transform: translate(25px, 0px);
+	}
+	4% {
+		transform: translate(50px, 1px);
+	}
+	6% {
+		transform: translate(75px, 0px);
+	}
+	8% {
+		transform: translate(100px, 1px);
+	}
+	10% {
+		transform: translate(125px, 0px);
+	}
+	12% {
+		transform: translate(150px, 1px);
+	}
+	14% {
+		transform: translate(175px, 0px);
+	}
+	16% {
+		transform: translate(200px, 1px);
+	}
+	18% {
+		transform: translate(225px, 0px);
+	}
+	20% {
+		transform: translate(250px, 1px);
+	}
+	22% {
+		transform: translate(270px, 0px);
+	}
+	24% {
+		transform: translate(290px, 1px);
+	}
+	26% {
+		transform: translate(310px, 0px);
+	}
+	28% {
+		transform: translate(330px, 1px);
+	}
+	30% {
+		transform: translate(350px, 0px);
+	}
+	32% {
+		transform: translate(370px, 1px);
+	}
+	34% {
+		transform: translate(390px, 0px);
+	}
+	36% {
+		transform: translate(410px, 1px);
+	}
+	38% {
+		transform: translate(430px, 0px);
+	}
+	40% {
+		transform: translate(450px, 1px);
+	}
+	42% {
+		transform: translate(470px, 0px);
+	}
+	44% {
+		transform: translate(490px, 1px);
+	}
+	46% {
+		transform: translate(510px, 0px);
+	}
+	48% {
+		transform: translate(530px, 1px);
+	}
+	50% {
+		transform: translate(550px, 0px);
+	}
+	52% {
+		transform: translate(560px, 1px);
+	}
+	54% {
+		transform: translate(570px, 0px);
+	}
+	56% {
+		transform: translate(565px, 1px);
+	}
+	58% {
+		transform: translate(560px, 0px);
+	}
+	60% {
+		transform: translate(555px, 1px);
+	}
+	62% {
+		transform: translate(550px, 0px);
+	}
+	64% {
+		transform: translate(545px, 1px);
+	}
+	66% {
+		transform: translate(540px, 0px);
+	}
+	68% {
+		transform: translate(535px, 1px);
+	}
+	70% {
+		transform: translate(530px, 0px);
+	}
+	72% {
+		transform: translate(525px, 1px);
+	}
+	74% {
+		transform: translate(520px, 0px);
+	}
+	76% {
+		transform: translate(515px, 1px);
+	}
+	78% {
+		transform: translate(510px, 0px);
+	}
+	80% {
+		transform: translate(505px, 1px);
+	}
+	82% {
+		transform: translate(500px, 0px);
+	}
+	84% {
+		transform: translate(495px, 1px);
+	}
+	86% {
+		transform: translate(490px, 0px);
+	}
+	88% {
+		transform: translate(490px, 1px);
+	}
+	90% {
+		transform: translate(490px, 0px);
+	}
+	92% {
+		transform: translate(490px, 1px);
+	}
+	94% {
+		transform: translate(490px, 0px);
+	}
+	96% {
+		transform: translate(490px, 1px);
+	}
+	98% {
+		transform: translate(490px, 0px);
+	}
+	100% {
+		transform: translate(500px, 1px);
+	}
+}
+
+
+.lamborghini_back {
+	width: 53px;
+	height: 53px;
+	position: absolute;
+	left: 535px;
+	z-index: 4;
+	bottom: 65px;
+	animation: lamborghini_back 25s linear infinite;
+}
+
+
+@keyframes lamborghini_back {
+	0% {
+		transform: rotate(0deg); left: 535px;
+	}
+	2% {
+ 		left: 560px;
+	 }
+	 4% {
+	 	left: 585px;
+	 }
+	 6% {
+	 	left: 610px;
+	 }
+	 8% {
+	 	left: 635px;
+	 }
+	 10% {
+	 	left: 660px;
+	 }
+	 12% {
+	 	left: 685px;
+	 }
+	 14% {
+	 	left: 710px;
+	 }
+	 16% {
+	 	left: 735px;
+	 }
+	 18% {
+	 	left: 760px;
+	 }
+	 20% {
+	 	left: 785px;
+	 }
+	 22% {
+	 	left: 805px;
+	 }
+	 24% {
+	 	left: 825px;
+	 }
+	 26% {
+	 	left: 845px;
+	 }
+	 28% {
+	 	left: 865px;
+	 }
+	 30% {
+	 	left: 885px;
+	 }
+	 32% {
+	 	left: 905px;
+	 }
+	 34% {
+	 	left: 925px;
+	 }
+	 36% {
+	 	left: 945px;
+	 }
+	 38% {
+	 	left: 965px;
+	 }
+	 40% {
+	 	left: 985px;
+	 }
+	 42% {
+	 	left: 1005px;
+	 }
+	 44% {
+	 	left: 1025px;
+	 }
+	 46% {
+	 	left: 1045px;
+	 }
+	 48% {
+	 	left: 1065px;
+	 }
+	 50% {
+	 	left: 1085px;
+	 }
+	 52% {
+	 	left: 1095px;
+	 }
+	 54% {
+	 	left: 1105px;
+	 }
+	 56% {
+	 	left: 1100px;
+	 }
+	 58% {
+	 	left: 1095px;
+	 }
+	 60% {
+	 	left: 1090px;
+	 }
+	 62% {
+	 	left: 1085px;
+	 }
+	 64% {
+	 	left: 1080px;
+	 }
+	 66% {
+	 	left: 1075px;
+	 }
+	 68% {
+	 	left: 1070px;
+	 }
+	 70% {
+	 	left: 1065px;
+	 }
+	 72% {
+	 	left: 1060px;
+	 }
+	 74% {
+	 	left: 1055px;
+	 }
+	 76% {
+	 	left: 1050px;
+	 }
+	 78% {
+	 	left: 1045px;
+	 }
+	 80% {
+	 	left: 1040px;
+	 }
+	 82% {
+	 	left: 1035px;
+	 }
+	 84% {
+	 	left: 1030px;
+	 }
+	 86% {
+	 	left: 1025px;
+	 }
+	 88% {
+	 	left: 1025px;
+	 }
+	 90% {
+	 	left: 1025px;
+	 }
+	 92% {
+	 	left: 1025px;
+	 }
+	 94% {
+	 	left: 1025px;
+	 }
+	 96% {
+	 	left: 1025px;
+	 }
+	 98% {
+	 	left: 1025px;
+	 }
+	100% { 
+		transform: rotate(60000deg); left: 1035px;
+	}
+}
+
+.lamborghini_forward {
+	width: 51px;
+	height: 51px;
+	position: absolute;
+	left: 729px;
+	z-index: 4;
+	bottom: 64px;
+	animation: lamborghini_forward 25s linear infinite;
+}
+
+@keyframes lamborghini_forward {
+	0% {
+		transform: rotate(60deg); left: 729px;
+	}
+	2% {
+	 	left: 754px;
+	}
+	4% {
+	 	left: 779px;
+	}
+	6% {
+	 	left: 804px;
+	 }
+	 8% {
+	 	left: 829px;
+	 }
+	 10% {
+	 	left: 854px;
+	 }
+	 12% {
+	 	left: 879px;
+	 }
+	 14% {
+	 	left: 904px;
+	 }
+	 16% {
+	 	left: 929px;
+	 }
+	 18% {
+	 	left: 954px;
+	 }
+	 20% {
+	 	left: 979px;
+	 }
+	 22% {
+	 	left: 999px;
+	 }
+	 24% {
+	 	left: 1019px;
+	 }
+	 26% {
+	 	left: 1039px;
+	 }
+	 28% {
+	 	left: 1059px;
+	 }
+	 30% {
+	 	left: 1079px;
+	 }
+	 32% {
+	 	left: 1099px;
+	 }
+	 34% {
+	 	left: 1119px;
+	 }
+	 36% {
+	 	left: 1139px;
+	 }
+	 38% {
+	 	left: 1159px;
+	 }
+	 40% {
+	 	left: 1179px;
+	 }
+	 42% {
+	 	left: 1199px;
+	 }
+	 44% {
+	 	left: 1219px;
+	 }
+	 46% {
+	 	left: 1239px;
+	 }
+	 48% {
+	 	left: 1259px;
+	 }
+	 50% {
+	 	left: 1279px;
+	 }
+	 52% {
+	 	left: 1289px;
+	 }
+	 54% {
+	 	left: 1299px;
+	 }
+	 56% {
+	 	left: 1294px;
+	 }
+	 58% {
+	 	left: 1289px;
+	 }
+	 60% {
+	 	left: 1284px;
+	 }
+	 62% {
+	 	left: 1279px;
+	 }
+	 64% {
+	 	left: 1274px;
+	 }
+	 66% {
+	 	left: 1269px;
+	 }
+	 68% {
+	 	left: 1264px;
+	 }
+	 70% {
+	 	left: 1259px;
+	 }
+	 72% {
+	 	left: 1254px;
+	 }
+	 74% {
+	 	left: 1249px;
+	 }
+	 76% {
+	 	left: 1244px;
+	 }
+	 78% {
+	 	left: 1239px;
+	 }
+	 80% {
+	 	left: 1234px;
+	 }
+	 82% {
+	 	left: 1229px;
+	 }
+	 84% {
+	 	left: 1224px;
+	 }
+	 86% {
+	 	left: 1219px;
+	 }
+	 88% {
+	 	left: 1219px;
+	 }
+	 90% {
+	 	left: 1219px;
+	 }
+	 92% {
+	 	left: 1219px;
+	 }
+	 94% {
+	 	left: 1219px;
+	 }
+	 96% {
+	 	left: 1219px;
+	 }
+	 98% {
+	 	left: 1219px;
+	 }
+	100% { 
+		transform: rotate(60000deg);  left: 1229px;
+	}
+	}
