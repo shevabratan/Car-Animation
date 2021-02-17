@@ -136,9 +136,10 @@
  	bottom: 130px;
  	left: 1195px;
  }
+ 
  76% {
- 	opacity: 0;
- 	bottom: 30px; 
+ 	
+ 	bottom: 100px; 
  	left: 1160px;
  }
  78% {
@@ -148,13 +149,18 @@
  	
  }
  82% {
- 	
+ 
  }
  84% {
  	
  }
+ 85% {
+ 	opacity: 1;
+ }
  86% {
- 	
+ 	bottom: 100px; 
+ 	left: 1050px;
+ 	opacity: 0;
  }
  88% {
  	
